@@ -88,7 +88,8 @@ def main():
     if st.button("Predict Fare"):
         flight_fare = prediction(input_list)
         st.success(round(flight_fare[0],2))
-
+    
+    st.markdown('[Git repo link](https://github.com/ShriramDayama/Flight_fare_prediction/)')
 
 if __name__ == '__main__':
     main()
